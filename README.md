@@ -20,7 +20,7 @@ This Django-based web application allows users to manage an inventory of electro
 - About page with details about the shop
 - Clean black & white themed UI for a modern appearance
 
-🚀 Setup Instructions
+Setup Instructions
 
 1. **Clone the repository**
 
