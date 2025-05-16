@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #121212;
+        color: #f0f0f0;
+    }
+    .about-container {
+        padding: 4rem 2rem;
+    }
+    .about-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 2rem;
+    }
+    .lead-text {
+        font-size: 1.2rem;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 3rem auto;
+        color: #cccccc;
+    }
+    .card {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        border: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    }
+    .card-title {
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .blockquote {
+        color: #aaaaaa;
+    }
+</style>
+
+<div class="about-container">
+    <h1 class="about-header">About NobleRain Electronics</h1>
+
+    <p class="lead-text">
+        NobleRain Electronics is your go-to destination for premium electronics.
+        We blend style and technology to bring you the most innovative devices on the market — all wrapped in a commitment to service and quality.
+    </p>
+
+    <!-- Info Cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 shadow rounded-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Our Vision</h5>
+                    <p class="card-text">To be a leader in tech innovation by delivering accessible electronics for every lifestyle.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow rounded-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Our Values</h5>
+                    <p class="card-text">We value quality, integrity, and customer satisfaction. Every product we offer is carefully selected.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow rounded-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Our Promise</h5>
+                    <p class="card-text">We’re here to support you at every step — from product discovery to after-sales service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Section -->
+    <div class="mt-5 p-4 bg-dark rounded-4 shadow text-center">
+        <blockquote class="blockquote">
+            <p class="mb-0 fs-5 fst-italic">"Technology is not just about devices — it's about connection, creation, and change."</p>
+            <footer class="blockquote-footer mt-2 text-white">NobleRain Electronics</footer>
+        </blockquote>
+    </div>
+</div>
+{% endblock %}

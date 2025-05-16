@@ -1,0 +1,68 @@
+[
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone 14",
+      "description": "Latest Apple smartphone with A15 Bionic chip.",
+      "price": 999.99,
+      "image": "static/images/smartphone.jpg",
+      "category": "Smartphones"
+    }
+  },
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung Galaxy S22",
+      "description": "High-performance Android smartphone with dynamic AMOLED display.",
+      "price": 899.99,
+      "image": "images/smartphone.jpg",
+      "category": "Smartphones"
+    }
+  },
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 3,
+    "fields": {
+      "name": "HP Pavilion 15",
+      "description": "15-inch laptop with Intel i5 processor and 8GB RAM.",
+      "price": 749.99,
+      "image": "images/laptop.jpg",
+      "category": "Laptops"
+    }
+  },
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 4,
+    "fields": {
+      "name": "MacBook Air M2",
+      "description": "Ultra-thin laptop with Apple M2 chip and Retina display.",
+      "price": 1199.99,
+      "image": "images/laptop.jpg",
+      "category": "Laptops"
+    }
+  },
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 5,
+    "fields": {
+      "name": "Sony WH-1000XM4",
+      "description": "Industry-leading noise-canceling headphones.",
+      "price": 349.99,
+      "image": "images/headphones.jpg",
+      "category": "Headphones"
+    }
+  },
+  {
+    "model": "electronics.electronicsdata",
+    "pk": 6,
+    "fields": {
+      "name": "JBL Tune 510BT",
+      "description": "Wireless on-ear headphones with pure bass sound.",
+      "price": 49.99,
+      "image": "images/headphones.jpg",
+      "category": "Headphones"
+    }
+  }
+]
