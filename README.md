@@ -68,3 +68,4 @@ Setup Instructions
     
  👨‍💻 Author
 Rose Irungu   
+"Improved documentation." 
